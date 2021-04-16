@@ -7,4 +7,4 @@ metadata:
 spec:
   host: graphana.kostis.sales-dev.codefresh.io
   prefix: /
-  service: graphana-graphana.metrics:80
+  service: graphana-grafana.metrics:80
