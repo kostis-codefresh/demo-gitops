@@ -1,0 +1,10 @@
+---
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: prometheus-ingress
+  namespace: metrics
+spec:
+  host: prometheus.kostis.sales-dev.codefresh.io
+  prefix: /
+  service: prometheus-server.metrics:80
