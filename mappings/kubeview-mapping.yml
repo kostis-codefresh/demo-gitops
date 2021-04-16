@@ -1,0 +1,10 @@
+---
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: kubeview-ingress
+  namespace: kubeview
+spec:
+  host: kubeview.kostis.sales-dev.codefresh.io
+  prefix: /
+  service: kubeview.kubeview:80
