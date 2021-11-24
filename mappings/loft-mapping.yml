@@ -1,0 +1,10 @@
+---
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: loft-ingress
+  namespace: loft
+spec:
+  prefix: /
+  host: loft.kostis.sales-dev.codefresh.io
+  service: loft.loft:80
